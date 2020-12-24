@@ -16,4 +16,5 @@ Infuenza-like Illness Surveillance Network (ILINet) that overlaps with Google Fl
 
 ## Dependencies
 
-1. python 3
+1. Python 3
+2. [PyInform](https://github.com/elife-asu/pyinform) (A Python Wrapper for the Inform Information Analysis Library) to compute mutual information
