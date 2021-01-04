@@ -24,3 +24,5 @@ total of over 600 thousand users.
 ## Dependencies
 
 1. Python 3
+
+2. [PyInform](https://github.com/elife-asu/pyinform) (A Python Wrapper for the Inform Information Analysis Library) to compute mutual information
