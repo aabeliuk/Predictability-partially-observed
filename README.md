@@ -8,6 +8,11 @@ Repository for paper "Predictability limit of partially observed systems" by Abe
 
 + **`Twitter-user.ipynb`** contains the source code of the Twitter user-level analysis results.
 
++ **`Twitter-hashtag.ipynb`** contains the source code of the Twitter hashtag-level analysis results.
+
++ **`crypto_repos.ipynb`** contains the source code of the Github Cryptocurrency popularity results.
+
+
 + **`Data`** contains the data for Epidemics results.
   + `Epidemics` has the weekly state-level data for all diseases originally compiled by the USA National Notifable Diseases Surveillance System. For the covariance experiment, we used infuenza data from 2010 to 2015 obtained for the US Outpatient
 Infuenza-like Illness Surveillance Network (ILINet) that overlaps with Google Flu Trends Data
@@ -16,6 +21,7 @@ Infuenza-like Illness Surveillance Network (ILINet) that overlaps with Google Fl
 by retrieving the accounts of the users they followed, for a total of 5599 seed users. We collected all posts made by
 the seed users and their friends (i.e., users they followed on Twitter) over the period of June–November 2014, a
 total of over 600 thousand users. 
+  + `Crypto` The GitHub data we analyzed contains anonymized records of user activities over a time period spanning from January 1st, 2015 to March 31st, 2015. The activities represent the actions users performed on the repositories, including watching the repositories to receive notifcations about project activity. We used watches, forks, and create event activity as a measure of popularity of a repository in Github. Cryptocurrencies' historical prices were obtained from publicly available Kaggle datasets.
 
 + **`Results`** Folder where the predictabilty measures computed are saved.
 
